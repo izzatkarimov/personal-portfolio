@@ -135,6 +135,7 @@ ul{
 }
 
 .about-info p {
+    font-size: 18px;
     margin-bottom: 10px; /* Add space between paragraphs */
 }
 
