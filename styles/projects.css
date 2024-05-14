@@ -95,22 +95,41 @@ ul{
 /*Start of Content Styling*/
 /*Start of Content Styling*/
 
+.content-container h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.content-container h1:hover{
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+    transform: rotate(3deg);
+}
+
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* Two columns */
     grid-gap: 20px; /* Gap between grid items */
-    margin-top: 20px; /* Add margin to separate from heading */
+    margin: 50px 100px 150px 100px;
 }
 
 .project {
     background-color: #f8f9fa; /* Light gray background */
     padding: 20px;
+    margin: 20px;
     border-radius: 5px;
     text-align: center;
 }
 
+.project:hover{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Subtle box shadow */
+    transform: rotate(-3deg);
+}
+
 .project img {
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
     border-radius: 5px;
 }
@@ -132,7 +151,6 @@ ul{
 .project a:hover {
     text-decoration: underline;
 }
-
 
 /*End of Content Styling*/
 /*End of Content Styling*/
