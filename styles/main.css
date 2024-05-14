@@ -1,0 +1,206 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    padding-right: 2px;
+    padding-left: 2px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Set minimum height of the body to 100% of the viewport height */
+}
+
+.header-links li {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.header-links li a{
+    color: black;
+}
+.header-links li a:hover{
+    color: blue;
+    font-weight: 800;
+    text-decoration: underline;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Subtle box shadow */
+}
+
+.header-links button{
+    background-color: black;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor style */
+    font-size: 16px; /* Font size */
+    font-weight: bold; /* Bold text */
+    text-transform: uppercase; /* Uppercase text */
+    transition: background-color 0.4s ease; /* Smooth transition for hover effect */
+}
+
+.header-links button:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    transform: rotate(3deg);
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.left-section, .right-section {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.left-section a{
+    text-decoration: none;
+    color: black;
+}
+
+.left-section a:hover{
+    text-decoration: underline;
+    color: blue;
+    font-weight: 800;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Subtle box shadow */
+    transform: scale(1.1); /* Increase size by 10% */
+}
+
+.right-section {
+    margin-right: 15px;
+    margin-left: auto;
+}
+
+/*End of Header Styling*/
+/*End of Header Styling*/
+
+/*Start of Content Styling*/
+/*Start of Content Styling*/
+
+
+.content-container {
+    display: flex;
+    align-items: center;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.content-left {
+    flex: 1;
+    padding: 20px;
+}
+
+.content-right {
+    flex: 1;
+    padding: 20px;
+}
+
+.content-right img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.content-left h1 {
+    color: black; 
+    font-size: 30px;
+}
+
+.content-left h1:hover {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Subtle box shadow */
+    transform: rotate(3deg);
+}
+
+.content-left p {
+    color: #212529;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.content-left p:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Subtle box shadow */
+    transform: rotate(-3deg);
+}
+
+.content-left button{
+    background-color: black;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor style */
+    font-size: 16px; /* Font size */
+    font-weight: bold; /* Bold text */
+    text-transform: uppercase; /* Uppercase text */
+    transition: background-color 0.4s ease; /* Smooth transition for hover effect */
+}
+
+.content-left button:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    transform: rotate(3deg);
+}
+
+/*End of Content Styling*/
+/*End of Content Styling*/
+
+/*Start of Footer Styling*/
+/*Start of Footer Styling*/
+footer {
+    background-color: #f8f9fa; /* Light gray background */
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-container {
+    max-width: 1200px; /* Set maximum width for content */
+    margin: 0 auto; /* Center content horizontally */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.footer-links li a {
+    color: #007bff; /* Blue color for links */
+    text-decoration: none;
+}
+
+.footer-links li a:hover {
+    text-decoration: underline;
+}

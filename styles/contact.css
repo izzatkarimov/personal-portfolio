@@ -1,0 +1,216 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    padding-right: 2px;
+    padding-left: 2px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Set minimum height of the body to 100% of the viewport height */
+}
+
+.header-links li {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.header-links li a{
+    color: black;
+}
+.header-links li a:hover{
+    color: blue;
+    font-weight: 800;
+    text-decoration: underline;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Subtle box shadow */
+}
+
+.header-links button{
+    background-color: black;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor style */
+    font-size: 16px; /* Font size */
+    font-weight: bold; /* Bold text */
+    text-transform: uppercase; /* Uppercase text */
+    transition: background-color 0.4s ease; /* Smooth transition for hover effect */
+}
+
+.header-links button:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    transform: rotate(3deg);
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.left-section, .right-section {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.left-section a{
+    text-decoration: none;
+    color: black;
+}
+
+.left-section a:hover{
+    text-decoration: underline;
+    color: blue;
+    font-weight: 800;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Subtle box shadow */
+    transform: scale(1.1); /* Increase size by 10% */
+}
+
+.right-section {
+    margin-right: 15px;
+    margin-left: auto;
+}
+
+/*End of Header Styling*/
+/*End of Header Styling*/
+
+/*Start of Content Styling*/
+/*Start of Content Styling*/
+
+.contact-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Change align-items to center */
+}
+
+.contact-image {
+    flex: 1; /* Take up 1 part of the available space */
+    margin-right: 20px; /* Add some space between the image and the form */
+}
+
+.contact-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.contact-form {
+    flex: 1; /* Take up 1 part of the available space */
+    padding: 20px;
+    border-radius: 5px;
+    margin: 50px;
+}
+
+.contact-form h2 {
+    color: black; 
+    font-size: 30px;
+}
+.contact-form h2:hover {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Subtle box shadow */
+    transform: rotate(3deg);
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    height: 150px; /* Set textarea height */
+}
+
+.contact-form input:hover{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Subtle box shadow */
+    transform: rotate(-3deg);
+}
+
+.contact-form textarea:hover{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Subtle box shadow */
+    transform: rotate(-3deg);
+}
+
+.contact-form button {
+    background-color: black;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor style */
+    font-size: 16px; /* Font size */
+    font-weight: bold; /* Bold text */
+    text-transform: uppercase; /* Uppercase text */
+    transition: background-color 0.4s ease; /* Smooth transition for hover effect */
+}
+
+.contact-form button:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    transform: rotate(3deg);
+}
+
+/*End of Content Styling*/
+/*End of Content Styling*/
+
+/*Start of Footer Styling*/
+/*Start of Footer Styling*/
+footer {
+    background-color: #f8f9fa; /* Light gray background */
+    padding: 20px;
+    text-align: center;
+    margin-top: auto; /* Push the footer to the bottom */
+}
+
+.footer-container {
+    max-width: 1200px; /* Set maximum width for content */
+    margin: 0 auto; /* Center content horizontally */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.footer-links li a {
+    color: #007bff; /* Blue color for links */
+    text-decoration: none;
+}
+
+.footer-links li a:hover {
+    text-decoration: underline;
+}
