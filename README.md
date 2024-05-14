@@ -1,4 +1,6 @@
+<h1 align="center">Portfolio Website</h1>
+
 <div align="center">
 <pre>
-<b></b>Izzat Karimov</b>
+  Izzat Karimov
 </pre>
