@@ -92,6 +92,52 @@ ul{
 /*End of Header Styling*/
 /*End of Header Styling*/
 
+/*Start of Content Styling*/
+/*Start of Content Styling*/
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    grid-gap: 20px; /* Gap between grid items */
+    margin-top: 20px; /* Add margin to separate from heading */
+}
+
+.project {
+    background-color: #f8f9fa; /* Light gray background */
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.project h2 {
+    margin-top: 10px;
+}
+
+.project p {
+    margin-bottom: 10px;
+}
+
+.project a {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+
+/*End of Content Styling*/
+/*End of Content Styling*/
+
+
 /*Start of Footer Styling*/
 /*Start of Footer Styling*/
 footer {
