@@ -120,11 +120,11 @@ ul{
     margin: 50px;
 }
 
-.contact-form h2 {
+.contact-form h1 {
     color: black; 
     font-size: 30px;
 }
-.contact-form h2:hover {
+.contact-form h1:hover {
     color: blue;
     text-decoration: underline;
     cursor: pointer;

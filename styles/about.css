@@ -92,12 +92,76 @@ ul{
 /*End of Header Styling*/
 /*End of Header Styling*/
 
+/*Start of Content Styling*/
+/*Start of Content Styling*/
+
+.content-container {
+    flex: 1;
+    padding: 20px; /* Add padding around the content */
+    margin: 40px 50px 80px 50px;
+    text-align: center; /* Center-align the content */
+    margin-bottom: 200px;
+}
+
+.content-container h1{
+    font-size: 30px;
+}
+
+.content-container h1:hover{
+    transform: rotate(3deg);
+    text-decoration: underline;
+    color: blue;
+}
+
+.about-info img:hover{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Subtle box shadow */
+    transform: rotate(-3deg);
+}
+
+.about-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-info img {
+    max-width: 30%; /* Set the maximum width of the profile picture */
+    border-radius: 50%; /* Make the profile picture circular */
+    margin-right: 20px; /* Add space between the profile picture and text */
+}
+
+.about-info .text {
+    text-align: left; /* Align text to the left */
+}
+
+.about-info p {
+    margin-bottom: 10px; /* Add space between paragraphs */
+}
+
+.about-info p:hover{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Subtle box shadow */
+    transform: rotate(-3deg);
+}
+
+.about-info ul {
+    margin-bottom: 20px; /* Add space below the list */
+}
+
+.about-info ul:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Subtle box shadow */
+    transform: rotate(-3deg);
+}
+
+/*End of Content Styling*/
+/*End of Content Styling*/
+
 /*Start of Footer Styling*/
 /*Start of Footer Styling*/
 footer {
     background-color: #f8f9fa; /* Light gray background */
     padding: 20px;
     text-align: center;
+    margin-top: auto;
 }
 
 .footer-container {

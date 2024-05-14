@@ -97,8 +97,9 @@ ul{
 
 .content-container h1{
     text-align: center;
-    margin-top: 50px;
+    margin-top: 80px;
     margin-bottom: 50px;
+    font-size: 30px;
 }
 
 .content-container h1:hover{
