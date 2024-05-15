@@ -105,6 +105,7 @@ ul{
 
 .content-container h1{
     font-size: 30px;
+    margin-bottom: 30px;
 }
 
 .content-container h1:hover{
@@ -125,7 +126,7 @@ ul{
 }
 
 .about-info img {
-    max-width: 30%; /* Set the maximum width of the profile picture */
+    max-width: 25%; /* Set the maximum width of the profile picture */
     border-radius: 50%; /* Make the profile picture circular */
     margin-right: 20px; /* Add space between the profile picture and text */
 }
@@ -135,7 +136,7 @@ ul{
 }
 
 .about-info p {
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 10px; /* Add space between paragraphs */
 }
 
@@ -155,13 +156,41 @@ ul{
 
 /*Skills Styling*/
 
-.skills-info{
+.skills-info img {
+    max-width: 25%; /* Set the maximum width of the profile picture */
+    border-radius: 50%; /* Make the profile picture circular */
+    margin-right: 20px; /* Add space between the profile picture and text */
+}
+
+.skills-info h1{
+    margin-top: 100px;
+}
+
+.skills-info li{
     font-size: 20px;
 }
 
 .skills-info .skill:hover{
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Subtle box shadow */
     transform: rotate(-3deg);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Education Styling */
+
+.edu-info img {
+    max-width: 25%; /* Set the maximum width of the profile picture */
+    border-radius: 50%; /* Make the profile picture circular */
+    margin-right: 20px; /* Add space between the profile picture and text */
+}
+
+.edu-info h1 {
+    margin-top: 100px;
+}
+
+.edu-info li{
+    font-size: 20px;
 }
 
 /*End of Content Styling*/
