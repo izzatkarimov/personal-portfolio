@@ -153,6 +153,17 @@ ul{
     transform: rotate(-3deg);
 }
 
+/*Skills Styling*/
+
+.skills-info{
+    font-size: 20px;
+}
+
+.skills-info .skill:hover{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Subtle box shadow */
+    transform: rotate(-3deg);
+}
+
 /*End of Content Styling*/
 /*End of Content Styling*/
 
