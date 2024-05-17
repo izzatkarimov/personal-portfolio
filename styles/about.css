@@ -208,6 +208,14 @@ ul{
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Subtle box shadow */
 }
 
+.skills-info .skill-category:hover{
+    color: blue;
+    font-size: 24px;
+    font-weight: 900;
+    text-decoration: underline;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Subtle box shadow */
+}
+
 /* Education Styling */
 
 .edu-info {
