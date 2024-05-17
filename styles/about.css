@@ -7,7 +7,7 @@
 body {
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* Set minimum height of the body to 100% of the viewport height */
+    min-height: 100vh;
 }
 
 .header-links li {
@@ -22,7 +22,7 @@ body {
     color: blue;
     font-weight: 800;
     text-decoration: underline;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Subtle box shadow */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 
 .header-links button{
@@ -30,12 +30,12 @@ body {
     color: #fff;
     padding: 10px 20px;
     border: none;
-    border-radius: 5px; /* Rounded corners */
-    cursor: pointer; /* Cursor style */
-    font-size: 16px; /* Font size */
-    font-weight: bold; /* Bold text */
-    text-transform: uppercase; /* Uppercase text */
-    transition: background-color 0.4s ease; /* Smooth transition for hover effect */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.4s ease;
 }
 
 .header-links button:hover{
@@ -80,8 +80,8 @@ ul{
     text-decoration: underline;
     color: blue;
     font-weight: 800;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Subtle box shadow */
-    transform: scale(1.1); /* Increase size by 10% */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    transform: scale(1.1);
 }
 
 .right-section {
@@ -97,9 +97,9 @@ ul{
 
 .content-container {
     flex: 1;
-    padding: 20px; /* Add padding around the content */
+    padding: 20px;
     margin: 40px 50px 80px 50px;
-    text-align: center; /* Center-align the content */
+    text-align: center;
     margin-bottom: 200px;
 }
 
@@ -126,13 +126,13 @@ ul{
 }
 
 .about-info img {
-    max-width: 25%; /* Set the maximum width of the profile picture */
+    max-width: 25%;
     border-radius: 50%; /* Make the profile picture circular */
     margin-right: 20px; /* Add space between the profile picture and text */
 }
 
 .about-info img:hover{
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Subtle box shadow */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     transform: rotate(-3deg);
 }
 
@@ -146,13 +146,13 @@ ul{
     font-size: 22px;
     font-weight: 900;
     text-decoration: underline;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Subtle box shadow */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
 .about-info .text {
-    order: 2; /* Place the text before the image */
-    text-align: right; /* Align text to the left */
-    flex: 1; /* Allow the text to take available space */
+    order: 2;
+    text-align: right;
+    flex: 1;
 }
 
 .about-info li {
@@ -179,21 +179,21 @@ ul{
 }
 
 .skills-info .text {
-    order: 1; /* Place the text before the image */
-    text-align: left; /* Align text to the left */
-    flex: 1; /* Allow the text to take available space */
+    order: 1;
+    text-align: left;
+    flex: 1;
 }
 
 .skills-info img {
-    max-width: 30%; /* Set the maximum width of the profile picture */
-    border-radius: 50%; /* Make the profile picture circular */
-    margin-left: 20px; /* Add space between the text and the profile picture */
-    order: 2; /* Place the image after the text */
+    max-width: 30%;
+    border-radius: 50%;
+    margin-left: 20px;
+    order: 2;
     flex-shrink: 0; /* Prevent the image from shrinking */
 }
 
 .skills-info img:hover{
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Subtle box shadow */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     transform: rotate(-3deg);
 }
 
@@ -205,7 +205,7 @@ ul{
     font-size: 24px;
     font-weight: 900;
     text-decoration: underline;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Subtle box shadow */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
 .skills-info .skill-category:hover{
@@ -213,7 +213,7 @@ ul{
     font-size: 24px;
     font-weight: 900;
     text-decoration: underline;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Subtle box shadow */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
 /* Education Styling */
@@ -236,8 +236,8 @@ ul{
 }
 
 .edu-info .text {
-    order: 2; /* Place the text before the image */
-    text-align: right; /* Align text to the left */
+    order: 2;
+    text-align: right;
     flex: 1; /* Allow the text to take available space */
 }
 
@@ -245,7 +245,7 @@ ul{
     font-size: 24px;
     font-weight: 900;
     text-decoration: underline;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Subtle box shadow */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
 .edu-list .edu a{
@@ -266,7 +266,7 @@ ul{
 }
 
 .edu-info img:hover{
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Subtle box shadow */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     transform: rotate(-3deg);
 }
 
@@ -287,8 +287,8 @@ footer {
 }
 
 .footer-container {
-    max-width: 1200px; /* Set maximum width for content */
-    margin: 0 auto; /* Center content horizontally */
+    max-width: 1200px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -306,7 +306,7 @@ footer {
 }
 
 .footer-links li a {
-    color: #007bff; /* Blue color for links */
+    color: #007bff;
     text-decoration: none;
 }
 
