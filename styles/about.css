@@ -233,6 +233,13 @@ ul{
     flex: 1; /* Allow the text to take available space */
 }
 
+.edu-list .edu:hover {
+    font-size: 24px;
+    font-weight: 900;
+    text-decoration: underline;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Subtle box shadow */
+}
+
 .edu-info img {
     max-width: 30%; /* Set the maximum width of the profile picture */
     border-radius: 50%; /* Make the profile picture circular */
