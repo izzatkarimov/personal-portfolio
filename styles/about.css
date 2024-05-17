@@ -156,21 +156,47 @@ ul{
 
 /*Skills Styling*/
 
-.skills-info img {
-    max-width: 25%; /* Set the maximum width of the profile picture */
-    border-radius: 50%; /* Make the profile picture circular */
-    margin-right: 20px; /* Add space between the profile picture and text */
+.skills-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 50px;
+    flex-wrap: wrap; /* Allow wrapping for better responsiveness */
+    margin-left: 80px;
+    margin-right: 80px;
 }
 
-.skills-info h1{
+.skills-info h1 {
+    width: 100%;
+    text-align: center;
     margin-top: 100px;
 }
 
-.skills-info li{
+.skills-info .text {
+    order: 1; /* Place the text before the image */
+    text-align: left; /* Align text to the left */
+    flex: 1; /* Allow the text to take available space */
+}
+
+.skills-info img {
+    max-width: 25%; /* Set the maximum width of the profile picture */
+    border-radius: 50%; /* Make the profile picture circular */
+    margin-left: 20px; /* Add space between the text and the profile picture */
+    order: 2; /* Place the image after the text */
+    flex-shrink: 0; /* Prevent the image from shrinking */
+}
+
+.skills-info img:hover{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Subtle box shadow */
+    transform: rotate(-3deg);
+}
+
+.skills-info li {
     font-size: 20px;
 }
 
-.skills-info .skill:hover{
+.skills-info .skill:hover {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Subtle box shadow */
     transform: rotate(-3deg);
     font-weight: bold;
