@@ -180,7 +180,7 @@ ul{
 }
 
 .skills-info img {
-    max-width: 25%; /* Set the maximum width of the profile picture */
+    max-width: 30%; /* Set the maximum width of the profile picture */
     border-radius: 50%; /* Make the profile picture circular */
     margin-left: 20px; /* Add space between the text and the profile picture */
     order: 2; /* Place the image after the text */
@@ -197,16 +197,16 @@ ul{
 }
 
 .skills-info .skill:hover {
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Subtle box shadow */
-    transform: rotate(-3deg);
-    font-weight: bold;
+    font-size: 24px;
+    font-weight: 900;
     text-decoration: underline;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Subtle box shadow */
 }
 
 /* Education Styling */
 
 .edu-info img {
-    max-width: 25%; /* Set the maximum width of the profile picture */
+    max-width: 30%; /* Set the maximum width of the profile picture */
     border-radius: 50%; /* Make the profile picture circular */
     margin-right: 20px; /* Add space between the profile picture and text */
 }
@@ -217,6 +217,11 @@ ul{
 
 .edu-info li{
     font-size: 20px;
+}
+
+.edu-info img:hover{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Subtle box shadow */
+    transform: rotate(-3deg);
 }
 
 /*End of Content Styling*/
