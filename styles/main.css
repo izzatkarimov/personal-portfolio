@@ -130,7 +130,7 @@ ul{
     color: blue;
     text-decoration: underline;
     cursor: pointer;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Subtle box shadow */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     transform: rotate(3deg);
 }
 
@@ -142,7 +142,7 @@ ul{
 
 .content-left p:hover {
     cursor: pointer;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Subtle box shadow */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     transform: rotate(-3deg);
 }
 
@@ -151,12 +151,12 @@ ul{
     color: #fff;
     padding: 10px 20px;
     border: none;
-    border-radius: 5px; /* Rounded corners */
-    cursor: pointer; /* Cursor style */
-    font-size: 16px; /* Font size */
-    font-weight: bold; /* Bold text */
-    text-transform: uppercase; /* Uppercase text */
-    transition: background-color 0.4s ease; /* Smooth transition for hover effect */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.4s ease;
 }
 
 .content-left button:hover{
@@ -172,14 +172,14 @@ ul{
 /*Start of Footer Styling*/
 /*Start of Footer Styling*/
 footer {
-    background-color: #f8f9fa; /* Light gray background */
+    background-color: #f8f9fa;
     padding: 20px;
     text-align: center;
 }
 
 .footer-container {
-    max-width: 1200px; /* Set maximum width for content */
-    margin: 0 auto; /* Center content horizontally */
+    max-width: 1200px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -197,7 +197,7 @@ footer {
 }
 
 .footer-links li a {
-    color: #007bff; /* Blue color for links */
+    color: #007bff;
     text-decoration: none;
 }
 
