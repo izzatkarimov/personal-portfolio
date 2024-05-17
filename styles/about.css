@@ -143,7 +143,7 @@ ul{
 }
 
 .about-info .txt:hover {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 900;
     text-decoration: underline;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Subtle box shadow */
@@ -238,6 +238,15 @@ ul{
     font-weight: 900;
     text-decoration: underline;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Subtle box shadow */
+}
+
+.edu-list .edu a{
+    color: black;
+}
+
+.edu-list .edu a:hover{
+    text-decoration: underline;
+    color: blue;
 }
 
 .edu-info img {
