@@ -103,6 +103,17 @@ ul{
     margin-bottom: 200px;
 }
 
+.about-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 50px;
+    flex-wrap: wrap; /* Allow wrapping for better responsiveness */
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
 .content-container h1{
     font-size: 30px;
     margin-bottom: 30px;
@@ -112,6 +123,12 @@ ul{
     transform: rotate(3deg);
     text-decoration: underline;
     color: blue;
+}
+
+.about-info img {
+    max-width: 25%; /* Set the maximum width of the profile picture */
+    border-radius: 50%; /* Make the profile picture circular */
+    margin-right: 20px; /* Add space between the profile picture and text */
 }
 
 .about-info img:hover{
@@ -125,24 +142,14 @@ ul{
     align-items: center;
 }
 
-.about-info img {
-    max-width: 25%; /* Set the maximum width of the profile picture */
-    border-radius: 50%; /* Make the profile picture circular */
-    margin-right: 20px; /* Add space between the profile picture and text */
-}
-
 .about-info .text {
-    text-align: left; /* Align text to the left */
+    order: 2; /* Place the text before the image */
+    text-align: right; /* Align text to the left */
+    flex: 1; /* Allow the text to take available space */
 }
 
-.about-info p {
+.about-info li {
     font-size: 20px;
-    margin-bottom: 10px; /* Add space between paragraphs */
-}
-
-.about-info p:hover{
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Subtle box shadow */
-    transform: rotate(-3deg);
 }
 
 .about-info ul {
@@ -153,6 +160,8 @@ ul{
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Subtle box shadow */
     transform: rotate(-3deg);
 }
+
+
 
 /*Skills Styling*/
 
