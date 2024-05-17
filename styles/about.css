@@ -205,23 +205,44 @@ ul{
 
 /* Education Styling */
 
-.edu-info img {
-    max-width: 30%; /* Set the maximum width of the profile picture */
-    border-radius: 50%; /* Make the profile picture circular */
-    margin-right: 20px; /* Add space between the profile picture and text */
+.edu-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 50px;
+    flex-wrap: wrap; /* Allow wrapping for better responsiveness */
+    margin-left: 80px;
+    margin-right: 80px;
 }
 
 .edu-info h1 {
+    width: 100%;
+    text-align: center;
     margin-top: 100px;
 }
 
-.edu-info li{
-    font-size: 20px;
+.edu-info .text {
+    order: 2; /* Place the text before the image */
+    text-align: right; /* Align text to the left */
+    flex: 1; /* Allow the text to take available space */
+}
+
+.edu-info img {
+    max-width: 30%; /* Set the maximum width of the profile picture */
+    border-radius: 50%; /* Make the profile picture circular */
+    margin-left: 20px; /* Add space between the text and the profile picture */
+    order: 2; /* Place the image after the text */
+    flex-shrink: 0; /* Prevent the image from shrinking */
 }
 
 .edu-info img:hover{
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Subtle box shadow */
     transform: rotate(-3deg);
+}
+
+.edu-info li {
+    font-size: 20px;
 }
 
 /*End of Content Styling*/
