@@ -116,7 +116,7 @@ ul{
 
 .content-container h1{
     font-size: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .content-container h1:hover{
@@ -142,6 +142,13 @@ ul{
     align-items: center;
 }
 
+.about-info .txt:hover {
+    font-size: 24px;
+    font-weight: 900;
+    text-decoration: underline;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Subtle box shadow */
+}
+
 .about-info .text {
     order: 2; /* Place the text before the image */
     text-align: right; /* Align text to the left */
@@ -151,17 +158,6 @@ ul{
 .about-info li {
     font-size: 20px;
 }
-
-.about-info ul {
-    margin-bottom: 20px; /* Add space below the list */
-}
-
-.about-info ul:hover {
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Subtle box shadow */
-    transform: rotate(-3deg);
-}
-
-
 
 /*Skills Styling*/
 
