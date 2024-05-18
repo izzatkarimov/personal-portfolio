@@ -89,6 +89,14 @@ ul{
     margin-left: auto;
 }
 
+.right-section a{
+    color: white;
+}
+
+.right-section a:hover{
+    color: black;
+}
+
 /*End of Header Styling*/
 /*End of Header Styling*/
 

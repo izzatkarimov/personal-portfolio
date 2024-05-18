@@ -89,6 +89,14 @@ ul{
     margin-left: auto;
 }
 
+.right-section a{
+    color: white;
+}
+
+.right-section a:hover{
+    color: black;
+}
+
 /*End of Header Styling*/
 /*End of Header Styling*/
 
@@ -157,6 +165,14 @@ ul{
     font-weight: bold;
     text-transform: uppercase;
     transition: background-color 0.4s ease;
+}
+
+.content-left button a{
+    color: white;
+}
+
+.content-left button a:hover{
+    color: black;
 }
 
 .content-left button:hover{
