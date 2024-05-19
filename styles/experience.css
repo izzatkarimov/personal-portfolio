@@ -112,7 +112,7 @@ ul{
 
 .content-container h1 {
     font-size: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 80px;
     text-align: center;
 }
 
@@ -167,14 +167,14 @@ ul{
 /*Start of Footer Styling*/
 /*Start of Footer Styling*/
 footer {
-    background-color: #f8f9fa; /* Light gray background */
+    background-color: #f8f9fa;
     padding: 20px;
     text-align: center;
 }
 
 .footer-container {
-    max-width: 1200px; /* Set maximum width for content */
-    margin: 0 auto; /* Center content horizontally */
+    max-width: 1200px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
