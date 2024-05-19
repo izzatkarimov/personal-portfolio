@@ -116,6 +116,13 @@ ul{
     text-align: center;
 }
 
+.content-container h1:hover{
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+    transform: rotate(3deg);
+}
+
 .experience-section {
     text-align: left;
     display: flex;
