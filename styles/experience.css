@@ -74,6 +74,7 @@ ul{
 .left-section a{
     text-decoration: none;
     color: black;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .left-section a:hover{
@@ -81,7 +82,9 @@ ul{
     color: blue;
     font-weight: 800;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Subtle box shadow */
-    transform: scale(1.1); /* Increase size by 10% */
+    transform: scale(1.1);
+    transform: translateY(-4px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .right-section {
@@ -96,7 +99,6 @@ ul{
 .right-section a:hover{
     color: black;
 }
-
 /*End of Header Styling*/
 /*End of Header Styling*/
 
