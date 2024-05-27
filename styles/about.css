@@ -119,7 +119,7 @@ ul{
     align-items: center;
     text-align: left;
     margin-bottom: 50px;
-    flex-wrap: wrap; /* Allow wrapping for better responsiveness */
+    flex-wrap: wrap;
     margin-left: 80px;
     margin-right: 80px;
 }
@@ -137,8 +137,8 @@ ul{
 
 .about-info img {
     max-width: 25%;
-    border-radius: 50%; /* Make the profile picture circular */
-    margin-right: 20px; /* Add space between the profile picture and text */
+    border-radius: 50%;
+    margin-right: 20px;
 }
 
 .about-info img:hover{
@@ -177,7 +177,7 @@ ul{
     align-items: center;
     text-align: left;
     margin-bottom: 50px;
-    flex-wrap: wrap; /* Allow wrapping for better responsiveness */
+    flex-wrap: wrap;
     margin-left: 80px;
     margin-right: 80px;
 }
@@ -199,7 +199,7 @@ ul{
     border-radius: 50%;
     margin-left: 20px;
     order: 2;
-    flex-shrink: 0; /* Prevent the image from shrinking */
+    flex-shrink: 0;
 }
 
 .skills-info img:hover{
@@ -234,7 +234,7 @@ ul{
     align-items: center;
     text-align: left;
     margin-bottom: 50px;
-    flex-wrap: wrap; /* Allow wrapping for better responsiveness */
+    flex-wrap: wrap;
     margin-left: 80px;
     margin-right: 80px;
 }
@@ -248,7 +248,7 @@ ul{
 .edu-info .text {
     order: 2;
     text-align: right;
-    flex: 1; /* Allow the text to take available space */
+    flex: 1;
 }
 
 .edu-list .edu:hover {
@@ -268,11 +268,11 @@ ul{
 }
 
 .edu-info img {
-    max-width: 30%; /* Set the maximum width of the profile picture */
-    border-radius: 50%; /* Make the profile picture circular */
-    margin-left: 20px; /* Add space between the text and the profile picture */
-    order: 2; /* Place the image after the text */
-    flex-shrink: 0; /* Prevent the image from shrinking */
+    max-width: 30%;
+    border-radius: 50%;
+    margin-left: 20px;
+    order: 2;
+    flex-shrink: 0;
 }
 
 .edu-info img:hover{
@@ -290,7 +290,7 @@ ul{
 /*Start of Footer Styling*/
 /*Start of Footer Styling*/
 footer {
-    background-color: #f8f9fa; /* Light gray background */
+    background-color: #f8f9fa;
     padding: 20px;
     text-align: center;
     margin-top: auto;
