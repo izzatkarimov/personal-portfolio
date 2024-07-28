@@ -1,7 +1,7 @@
 import { Icons } from "@/components/icons";
 import { ResumeCard } from "@/components/resume-card";
 import { ResumeIcon } from "@radix-ui/react-icons";
-import { CodeIcon, File, HomeIcon, NotebookIcon } from "lucide-react";
+import { CodeIcon, HomeIcon, NotebookIcon } from "lucide-react";
 import { Document } from "postcss";
 
 export const DATA = {
@@ -13,7 +13,8 @@ export const DATA = {
   description:
     "Software Engineer & Computer Engineering Student",
   summary:
-    "I am currently pursuing a fellowship at Headstarter AI, where I am busy with building AI projects, receiving coaching from FAANG engineers, and building my final project with my team with the goal of getting 1000 users on the on the waitlist.",
+    "I am currently pursuing a fellowship at [Headstarter AI](https://headstarter.co), where I am busy with building AI projects, receiving coaching from FAANG engineers, and building my final project with my team with the goal of getting 1000 users on the on the waitlist.",
+  resume: "Download My [Resume](https://www.linkedin.com/in/izzat-karimov/)",
   avatarUrl: "/izzat-karimov.jpeg",
   skills: [
     "Python",
