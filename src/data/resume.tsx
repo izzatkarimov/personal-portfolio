@@ -1,7 +1,7 @@
 import { Icons } from "@/components/icons";
 import { ResumeCard } from "@/components/resume-card";
 import { ResumeIcon } from "@radix-ui/react-icons";
-import { CodeIcon, Contact, File, HomeIcon, NotebookIcon } from "lucide-react";
+import { CodeIcon, File, HomeIcon, NotebookIcon } from "lucide-react";
 import { Document } from "postcss";
 
 export const DATA = {
@@ -30,10 +30,7 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/resume", icon: File, label: "Resume" },
-    { href: "/projects", icon: CodeIcon, label: "Projects" },
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
-    { href: "/contact", icon: Contact, label: "Contact" },
   ],
   contact: {
     email: "izzatcodes@gmail.com",
