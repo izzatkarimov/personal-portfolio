@@ -1,5 +1,8 @@
 import { Icons } from "@/components/icons";
-import { CodeIcon, HomeIcon, NotebookIcon, PencilLine } from "lucide-react";
+import { ResumeCard } from "@/components/resume-card";
+import { ResumeIcon } from "@radix-ui/react-icons";
+import { CodeIcon, Contact, File, HomeIcon, Notebook, NotebookIcon, PencilLine } from "lucide-react";
+import { Document } from "postcss";
 
 export const DATA = {
   name: "Izzat Karimov",
@@ -29,6 +32,8 @@ export const DATA = {
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
     { href: "/projects", icon: CodeIcon, label: "Projects" },
+    { href: "/contact", icon: Contact, label: "Contact" },
+    { href: "/resume", icon: File, label: "Resume" },
   ],
   contact: {
     email: "izzatcodes@gmail.com",
@@ -76,7 +81,7 @@ export const DATA = {
       start: "July 2024",
       end: "Sep 2024",
       description:
-        "Built 5+ AI apps using NextJS, OpenAI, Pinecone, StripeAPI with 98 percent accuracy as seen by 1000 users. Developer projects from design to deployment leading 4+ engineering fellows using MVC design patterns. Coached by Amazon, Bloomberg, and Capital One engineers on Agile, CI/CD, Git, and microservice patterns",
+        "Built 5+ AI apps using NextJS, OpenAI, Pinecone, StripeAPI with 98 percent accuracy as seen by 1000 users. \- Developer projects from design to deployment leading 4+ engineering fellows using MVC design patterns. Coached by Amazon, Bloomberg, and Capital One engineers on Agile, CI/CD, Git, and microservice patterns",
     },
     {
       company: "Upwork",
@@ -174,3 +179,4 @@ export const DATA = {
     },
   ],
 } as const;
+
