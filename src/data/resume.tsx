@@ -165,14 +165,13 @@ export const DATA = {
   ],
   hackathons: [
     {
-      title: "Hack Western 5",
-      dates: "November 23rd - 25th, 2018",
-      location: "London, Ontario",
+      title: "Headstarter AI Hackathon",
+      dates: "July 28 - 30, 2024",
+      location: "Remote",
       description:
         "Developed a mobile application which delivered bedtime stories to children using augmented reality.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-western.png",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
+      image: "/headstarter.jpg",
+      mlh: "",
       links: [],
     },
   ],
