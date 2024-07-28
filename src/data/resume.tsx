@@ -14,7 +14,7 @@ export const DATA = {
     "Software Engineer & Computer Engineering Student",
   summary:
     "I am currently pursuing a fellowship at [Headstarter AI](https://headstarter.co), where I am busy with building AI projects, receiving coaching from FAANG engineers, and building my final project with my team with the goal of getting 1000 users on the on the waitlist.",
-  resume: "Download My [Resume](https://www.linkedin.com/in/izzat-karimov/)",
+  resume: "Download My [Resume](https://drive.google.com/file/d/1WRvbEQ24QSYPPWb7ti5yNwcm2cqEhy5i/view?usp=sharing)",
   avatarUrl: "/izzat-karimov.jpeg",
   skills: [
     "Python",
