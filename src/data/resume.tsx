@@ -28,7 +28,7 @@ export const DATA = {
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
-    { href: "#", icon: CodeIcon, label: "Projects" },
+    { href: "/projects", icon: CodeIcon, label: "Projects" },
   ],
   contact: {
     email: "izzatcodes@gmail.com",
@@ -105,24 +105,22 @@ export const DATA = {
     {
       title: "E-Commerce Platform",
       href: "https://github.com/izzatkarimov",
-      dates: "Jan 2024 - Feb 2024",
+      dates: "Dec 2023 - Dec 2023",
       active: true,
       description:
-        "An e-commerce platform that allows users to buy and sell products.",
+        "An e-commerce platform that allows users to log in, log out, add items to the cart, and purchase items using Paypal.",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
+        "Python",
+        "Django",
+        "PayPal API",
+        "Bootstrap",
+        "CSS",
+        "HTML",
       ],
       links: [
         {
           type: "Website",
-          href: "https://chatcollect.com",
+          href: "https://github.com/izzatkarimov",
           icon: <Icons.globe className="size-3" />,
         },
       ],
@@ -132,29 +130,29 @@ export const DATA = {
     {
       title: "Dockerized Django App",
       href: "https://github.com/izzatkarimov",
-      dates: "June 2023 - Present",
+      dates: "June 2024 - Feb 2024",
       active: true,
       description:
         "Dockerized Django App with User Authentication, CRUD Operations, and REST API.",
       technologies: [
-        "Next.js",
-        "Typescript",
+        "Python",
+        "Django",
+        "Django REST Framework",
+        "Docker",
         "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
+        "Bootstrap",
+        "CSS",
+        "HTML",
       ],
       links: [
         {
           type: "Website",
-          href: "https://magicui.design",
+          href: "https://github.com/izzatkarimov",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
+          href: "https://github.com/izzatkarimov",
           icon: <Icons.github className="size-3" />,
         },
       ],
