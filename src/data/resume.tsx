@@ -30,10 +30,10 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/blog", icon: NotebookIcon, label: "Blog" },
-    { href: "/projects", icon: CodeIcon, label: "Projects" },
-    { href: "/contact", icon: Contact, label: "Contact" },
     { href: "/resume", icon: File, label: "Resume" },
+    { href: "/projects", icon: CodeIcon, label: "Projects" },
+    { href: "/blog", icon: NotebookIcon, label: "Blog" },
+    { href: "/contact", icon: Contact, label: "Contact" },
   ],
   contact: {
     email: "izzatcodes@gmail.com",
