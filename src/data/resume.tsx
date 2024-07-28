@@ -1,7 +1,7 @@
 import { Icons } from "@/components/icons";
 import { ResumeCard } from "@/components/resume-card";
 import { ResumeIcon } from "@radix-ui/react-icons";
-import { CodeIcon, Contact, File, HomeIcon, Notebook, NotebookIcon, PencilLine } from "lucide-react";
+import { CodeIcon, Contact, File, HomeIcon, NotebookIcon } from "lucide-react";
 import { Document } from "postcss";
 
 export const DATA = {
