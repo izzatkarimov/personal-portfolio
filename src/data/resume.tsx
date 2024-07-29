@@ -58,7 +58,7 @@ export const DATA = {
 
         navbar: true,
       },
-      Email: {
+      "izzatcodes@gmail.com": {
         name: "Send Email",
         url: "https://www.gmail.com",
         icon: Icons.email,
@@ -79,7 +79,7 @@ export const DATA = {
       start: "July 2024",
       end: "Sep 2024",
       description:
-        "Built 5+ AI apps using NextJS, OpenAI, Pinecone, StripeAPI with 98 percent accuracy as seen by 1000 users. \- Developer projects from design to deployment leading 4+ engineering fellows using MVC design patterns. Coached by Amazon, Bloomberg, and Capital One engineers on Agile, CI/CD, Git, and microservice patterns",
+        "Built 5+ AI apps using NextJS, OpenAI, Pinecone, StripeAPI with 98 percent accuracy as seen by 1000 users. Developed projects from design to deployment leading 4+ engineering fellows using MVC design patterns. Coached by Amazon, Bloomberg, and Capital One engineers on Agile, CI/CD, Git, and microservice patterns",
     },
     {
       company: "Upwork",
@@ -107,7 +107,7 @@ export const DATA = {
   projects: [
     {
       title: "E-Commerce Platform",
-      href: "https://github.com/izzatkarimov",
+      href: "https://github.com/izzatkarimov/e-commerce",
       dates: "Dec 2023 - Dec 2023",
       active: true,
       description:
@@ -123,8 +123,13 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://github.com/izzatkarimov",
+          href: "https://github.com/izzatkarimov/e-commerce",
           icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/izzatkarimov/e-commerce",
+          icon: <Icons.github className="size-3" />,
         },
       ],
       image: "",
@@ -132,7 +137,7 @@ export const DATA = {
     },
     {
       title: "Dockerized Django App",
-      href: "https://github.com/izzatkarimov",
+      href: "https://github.com/izzatkarimov/dockerized-django-app",
       dates: "June 2024 - Feb 2024",
       active: true,
       description:
@@ -150,12 +155,12 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://github.com/izzatkarimov",
+          href: "https://github.com/izzatkarimov/dockerized-django-app",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/izzatkarimov",
+          href: "https://github.com/izzatkarimov/dockerized-django-app",
           icon: <Icons.github className="size-3" />,
         },
       ],
